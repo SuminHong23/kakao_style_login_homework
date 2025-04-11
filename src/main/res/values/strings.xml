@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Ch6_View</string>
+    <string name="kakaotalk_login">
+       회원님의 소중한 정보보호를 위해, 카카오계정의 현재 비밀번호를 확인해주세요.
+    </string>
+    <string name="check_pw">
+        ID와 PW를 입력한 후, 확인 버튼을 눌러주세요.
+    </string>
+    <string name="correct">
+        일치합니다.
+    </string>
+    <string name="not_correct">
+        일치하지 않습니다.
+    </string>
+    <string name="if_forget_pw">
+        비밀번호가 기억나지 않으세요?
+    </string>
+    <string name="input_ID">ID 입력</string>
+    <string name="input_PW">비밀번호 입력</string>
+    <string name="check">확인</string>
+</resources>
