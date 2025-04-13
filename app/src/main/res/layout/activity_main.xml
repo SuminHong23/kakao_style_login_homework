@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#47503E">
+
+    <!-- 안내 문구 -->
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원님의 소중한 정보 보호를 위해, 카카오계정의 현재 비밀번호를 확인해 주세요."
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 이메일 표시 -->
+    <EditText
+        android:id="@+id/emailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="abc@jnu.ac.kr"
+        android:textSize="14sp"
+        android:textColor="#AAAAAA" />
+    <!-- 밑줄 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#888888"
+        android:layout_marginBottom="8dp" />
+
+    <!-- 비밀번호 입력 -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#888888"
+        android:layout_marginBottom="12dp" />
+
+
+    <!-- 비밀번호 찾기 안내 -->
+    <TextView
+        android:id="@+id/forgotTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호가 기억나지 않으세요?"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="24dp" />
+
+    <!-- 확인 버튼 -->
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="확인"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#A24D49"/>
+</LinearLayout>
